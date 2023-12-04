@@ -283,6 +283,5 @@ worker-node   Ready    worker                 2m55s   v1.24.1
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Then you can join any number of worker nodes by running the following on each as root:
-
-kubeadm join 172.31.14.67:6443 --token 58fyu0.krr84io2uo84ory9 \
-        --discovery-token-ca-cert-hash sha256:d41674295c622b18fe641b412753a30c48144a402405a377bf41b74680cd84d0
+kubeadm join 172.31.43.151:6443 --token 8czgiz.ti3ch0ck6t925vz7 \
+        --discovery-token-ca-cert-hash sha256:ddb03ce6c12720f35f1e9ffda20976af01ba2e2e4386e29bb5e2107cbda5b671 
