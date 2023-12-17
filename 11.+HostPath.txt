@@ -15,6 +15,7 @@ spec:
       volumeMounts:
       - mountPath: /test-mnt
         name: test-vol
+#this is for worker nod
   volumes:
   - name: test-vol
     hostPath:
